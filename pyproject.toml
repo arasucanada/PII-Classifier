@@ -1,0 +1,13 @@
+[project]
+name = "pii-clasiffier"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "ipykernel>=7.1.0",
+    "streamlit>=1.52.2",
+    "torch==2.8.0",
+    "transformers>=4.57.3",
+]
